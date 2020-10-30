@@ -1,0 +1,53 @@
+
+- java开发常用.gitignore配置
+```git
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+
+# Package Files #
+/target
+/.settings
+/.classpath
+/.project
+/.idea
+
+# ignore Maven generated target folders
+target
+out
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.factorypath
+.metadata
+.idea
+*.iml
